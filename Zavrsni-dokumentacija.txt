@@ -1,0 +1,6 @@
+Softkeyboar -> linija 705, dodavanje completiona
+Sad kao imam bazu, moram glaviniæu objasnit što imam
+te prouèit algoritam i onaj èlanak da izlaze iz tipke prijedlozi
+i to e to
+
+Promijenio liniju 146 CandidateViewa, dodao 20, èisto da vidimo pozicijski
