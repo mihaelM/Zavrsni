@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout android:id="@+id/linearLayout1"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_alignParentLeft="true"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal">
+
+        <TextView android:codes="113" android:text="q" android:keyEdgeFlags="left"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="119" android:text="w"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="101" android:text="e"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="114" android:text="r"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="116" android:text="t"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="121" android:text="y"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="117" android:text="u"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="105" android:text="i"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="111" android:text="o"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="112" android:text="p" android:keyEdgeFlags="right"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <LinearLayout android:id="@+id/linearLayout2"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_alignParentLeft="true"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+
+    <LinearLayout android:id="@+id/linearLayout3"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_width="362dp"
+        android:orientation="horizontal">
+
+        <TextView android:codes="97" android:text="a" android:horizontalGap="5%p"
+            android:keyEdgeFlags="left"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="115" android:text="s"
+            android:id="@+id/num115"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="100" android:text="d"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="102" android:text="f"
+
+            android:layout_width="494dp"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="103" android:text="g"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="104" android:text="h"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="106" android:text="j"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="107" android:text="k"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="108" android:text="l" android:keyEdgeFlags="right"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout android:id="@+id/linearLayout4"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_alignParentLeft="true"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal">
+
+        <TextView android:codes="-1" android:keyIcon="@drawable/sym_keyboard_shift"
+            android:keyWidth="15%p" android:isModifier="true"
+            android:isSticky="true" android:keyEdgeFlags="left"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="122" android:text="z"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="120" android:text="x"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="99" android:text="c"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="118" android:text="v"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="98" android:text="b"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="110" android:text="n"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="109" android:text="m"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete"
+            android:keyWidth="15%p" android:keyEdgeFlags="right"
+            android:isRepeatable="true"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <LinearLayout android:id="@+id/linearLayout5"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_alignParentLeft="true"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal">
+        
+        <TextView android:codes="-3" android:keyIcon="@drawable/sym_keyboard_done"
+            android:keyWidth="15%p" android:keyEdgeFlags="left"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="-2" android:text="123" android:keyWidth="10%p"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <!--
+            android:codes: -101 is not a framework-defined key code but a key code that is
+            privately defined in com.example.android.softkeyboard.LatinTextViewboardView.
+        -->
+        <TextView android:codes="-101" android:keyIcon="@drawable/sym_keyboard_language_switch"
+            android:keyWidth="10%p"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="32" android:keyIcon="@drawable/sym_keyboard_space"
+            android:keyWidth="30%p" android:isRepeatable="true"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="46,44" android:text=". ,"
+            android:keyWidth="15%p"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:codes="10" android:keyIcon="@drawable/sym_keyboard_return"
+            android:keyWidth="20%p" android:keyEdgeFlags="right"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>

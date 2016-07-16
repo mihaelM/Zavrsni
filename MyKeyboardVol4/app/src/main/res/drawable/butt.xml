@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:id="@+id/marketBtn"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="20pt"
+        android:layout_height="20pt"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="10sp" />
+</selector>

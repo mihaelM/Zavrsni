@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="11"
+    android:rowCount="3"
+
+    android:layout_alignTop="@+id/imageView1"
+    android:orientation="horizontal" >
+
+
+    <Button android:text="q"/>
+
+    <Button android:text="w" />
+
+    <Button android:text="e" />
+
+    <Button android:text="r" />
+
+    <Button android:text="t" />
+
+    <Button android:text="y" />
+
+    <Button android:text="o" />
+
+    <Button android:text="u" />
+
+    <Button android:text="p" />
+
+    <Button android:text="a" />
+
+    <Button android:text="s" />
+    <Button android:text="d" />
+    <Button android:text="f" />
+    <Button android:text="g" />
+    <Button android:text="h" />
+    <Button android:text="i" />
+    <Button android:text="j" />
+    <Button android:text="k" />
+    <Button android:text="l" />
+    <Button android:text="z" />
+    <Button android:text="x" />
+    <Button android:text="c" />
+    <Button android:text="b" />
+    <Button android:text="v" />
+    <Button android:text="n" />
+    <Button android:text="delete" />
+    <Button android:text="123" />
+    <Button android:text="space" />
+
+
+
+
+
+</GridLayout>

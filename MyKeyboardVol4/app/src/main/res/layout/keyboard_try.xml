@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.mihael.mykeyboardvol3.MainActivity.CustomButtonDemoFragment"
+    android:background="#e7fcfffd"
+    >
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp">
+        <EditText
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#f00"
+            android:textSize="25px"
+            android:gravity="top"
+            android:typeface="serif"
+            android:textStyle="italic"
+            android:text=""
+            android:backgroundTint="#ff4a37ff"/>
+    </ScrollView>
+    <GridLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="38dp"
+        android:gravity="bottom"
+        android:id="@+id/gridLay"
+        android:columnCount="10"
+        android:listSelector="@null"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <Button android:text="q"
+            android:layout_width="38dp"
+            android:id="@+id/q"
+            />
+
+        <Button android:text="w"
+            android:layout_width="38dp"
+            android:id="@+id/w"
+            />
+
+        <Button android:text="e"
+            android:layout_width="38dp"
+            android:id="@+id/e"/>
+
+        <Button android:text="r"
+            android:layout_width="38dp"
+            android:id="@+id/r"/>
+
+        <Button android:text="t"
+            android:layout_width="38dp"
+            android:id="@+id/t"/>
+
+        <Button android:text="y" android:layout_width="38dp"
+            android:id="@+id/y"/>
+
+
+        <Button android:text="u"
+            android:layout_width="38dp"
+            android:id="@+id/u"/>
+
+        <Button android:text="i"
+            android:layout_width="38dp"
+            android:id="@+id/i"/>
+
+        <Button android:text="o"
+            android:layout_width="38dp"
+            android:id="@+id/o"/>
+
+        <Button android:text="p"
+            android:layout_width="38dp"
+            android:id="@+id/p"/>
+
+        <Button android:text="a"
+            android:layout_width="38dp"
+            android:id="@+id/a"/>
+
+        <Button android:text="s"
+            android:layout_width="38dp"
+            android:id="@+id/s"/>
+        <Button android:text="d"
+            android:layout_width="38dp"
+            android:id="@+id/d"/>
+
+        <Button android:text="f"
+            android:layout_width="38dp"
+            android:id="@+id/f"/>
+        <Button android:text="g"
+            android:layout_width="38dp"
+            android:id="@+id/g"/>
+        <Button android:text="h"
+            android:layout_width="38dp"
+            android:id="@+id/h"/>
+        <Button android:text="j"
+            android:layout_width="38dp"
+            android:id="@+id/j"/>
+        <Button android:text="k"
+            android:layout_width="38dp"
+            android:id="@+id/k"/>
+        <Button android:text="l"
+            android:layout_width="38dp"
+            android:id="@+id/l"/>
+        <Button android:text="z"
+            android:layout_width="38dp"
+            android:id="@+id/z"/>
+
+        <Button android:text="x"
+            android:layout_width="38dp"
+            android:id="@+id/x"/>
+
+        <Button android:text="c"
+            android:layout_width="38dp"
+            android:id="@+id/c"/>
+        <Button android:text="v"
+            android:layout_width="38dp"
+            android:id="@+id/v"/>
+
+        <Button android:text="b"
+            android:layout_width="38dp"
+            android:id="@+id/b"
+            />
+
+        <Button android:text="n"
+            android:layout_width="38dp"
+            android:id="@+id/n"/>
+
+        <Button android:text="m"
+            android:layout_width="38dp"
+            android:id="@+id/m"/>
+
+
+
+
+    </GridLayout>
+
+
+
+</RelativeLayout>
